@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - SkillSher</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 15px rgba(255,255,255,0.3);
+    }
+
+    header h1 {
+      margin-top: 10px;
+      font-size: 2em;
+      color: #FFD700;
+    }
+
+    nav {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    .courses {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    .enroll-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #FFD700;
+      color: black;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .enroll-btn:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="logo.png" alt="SkillSher Logo">
+    <h1>Our Courses</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Courses Section -->
+  <section class="courses">
+    <div class="card">
+      <h3>🌐 Web Development</h3>
+      <p>
+        HTML, CSS, JavaScript اور Responsive Design سیکھیں۔  
+        Beginner سے Expert Level تک Complete Practical Training۔
+      </p>
+      <a href="contact.html" class="enroll-btn">Enroll Now</a>
+    </div>
+
+    <div class="card">
+      <h3>📈 Digital Marketing</h3>
+      <p>
+        SEO، Facebook Ads، Google Ads اور Social Media Marketing۔  
+        Client Projects اور Real-World Examples کے ساتھ۔
+      </p>
+      <a href="contact.html" class="enroll-btn">Enroll Now</a>
+    </div>
+
+    <div class="card">
+      <h3>💻 IT Skills</h3>
+      <p>
+        Computer Basics، Networking، Troubleshooting اور Freelancing کے Skills۔  
+        Practical Exercises اور Career Guidance۔
+      </p>
+      <a href="contact.html" class="enroll-btn">Enroll Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 SkillSher | All Rights Reserved
+  </footer>
+
+</body>
+</html>

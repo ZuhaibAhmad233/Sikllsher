@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - SkillSher</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #232526, #414345);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 15px rgba(255,255,255,0.3);
+    }
+
+    header h1 {
+      margin-top: 10px;
+      font-size: 2em;
+      color: #FFD700;
+    }
+
+    nav {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    .about-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    }
+
+    .about-section h2 {
+      color: #FFD700;
+      margin-bottom: 15px;
+    }
+
+    .about-section p {
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .mission {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="logo.png" alt="SkillSher Logo">
+    <h1>About Us</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <h2>Who We Are?</h2>
+    <p>
+      SkillSher ایک Online Platform ہے جس کا مقصد لوگوں کو وہ سکلز سکھانا ہے  
+      جو آج کے دور میں سب سے زیادہ Demand میں ہیں۔  
+      ہم Web Development، Digital Marketing اور IT Skills میں Practical Training فراہم کرتے ہیں۔
+    </p>
+
+    <div class="mission">
+      <h2>🎯 Our Mission</h2>
+      <p>
+        ہمارا مقصد نوجوانوں کو وہ Skills سکھانا ہے جن کی مدد سے وہ Freelancing  
+        یا Job Market میں کامیاب ہو سکیں اور اپنی Life بہتر بنا سکیں۔  
+        ہم Practical Examples، Projects اور Real-World Skills پر فوکس کرتے ہیں۔
+      </p>
+    </div>
+
+    <h2>🚀 Why Choose SkillSher?</h2>
+    <p>
+      ✅ Practical Learning  
+      ✅ Beginner سے Expert تک Training  
+      ✅ Real Projects + Portfolio Building  
+      ✅ Freelancing Career Guidance  
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 SkillSher | All Rights Reserved
+  </footer>
+
+</body>
+</html>
